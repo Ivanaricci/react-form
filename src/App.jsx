@@ -12,6 +12,11 @@ function App() {
                     <li key={index} className="list-group-item">{articolo}</li>
                 ))}
             </ul>
+            <form>
+                <div className='input-group mb-3'>
+                    <input type="text" className='form-control' placeholder='Nuovo articolo' />
+                </div>
+            </form>
         </div>
 
     </>
