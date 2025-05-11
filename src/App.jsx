@@ -9,8 +9,8 @@ function App() {
 
     const addArticle = (e) => {
         e.preventDefault();
-        console.log(`il nuovo articolo è ${newArticle}`)
-        setArticoli([...articoli, newArticle]);
+        console.log(`il nuovo articolo è ${newArticle}`)  // 👈🏻 funziona 
+        setArticoli([...articoli, newArticle]); // 👈🏻 Non funziona
     }
 
 
